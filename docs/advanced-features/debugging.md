@@ -34,6 +34,7 @@ Create a file named `.vscode/launch.json` at the root of your project with the f
       "request": "launch",
       "command": "npm run dev",
       "console": "integratedTerminal",
+      "autoAttachChildProcesses": true,
       "serverReadyAction": {
         "pattern": "started server on .+, url: (https?://.+)",
         "uriFormat": "%s",
